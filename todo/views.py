@@ -49,3 +49,4 @@ def delete_item(request, item_id):
     item.delete()
     return redirect('get_todo_list')
 
+
